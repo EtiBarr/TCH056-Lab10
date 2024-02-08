@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
         document.querySelector("footer"),
         document.querySelector("#themeToggle"),
         document.querySelector("#signinbtn"),
+        document.querySelector("#signUpbtn"),
         document.querySelector("#headerTitle"),
         ...document.querySelectorAll('.btn')
     ];
