@@ -5,7 +5,7 @@ body {
     justify-content: flex-start;
     margin: 0;
     backface-visibility: hidden;
-    background-color: #000000;
+    background-color: #444343;
     background-attachment: fixed;
 }
 
@@ -212,7 +212,7 @@ footer.light,
 }
 
 body.light {
-    background-color: #FFFFFF;
+    background-color: #d1cfcf;
 }
 
 header.light,
