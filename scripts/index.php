@@ -1,6 +1,11 @@
 <?php
+<<<<<<< Updated upstream
 
 require_once('connexion.php');
+=======
+/*
+        include 'en-tete.html';
+>>>>>>> Stashed changes
 
 // login verify start
 if (isset($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -63,6 +68,7 @@ if (isset($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD'] == 'POST') {
     echo json_encode(['erreur' => 'Requête non autorisée.', 'code' => 403]);
 }
 
+<<<<<<< Updated upstream
 //login verification ends
 
 
@@ -73,3 +79,8 @@ if (isset($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD'] == 'POST') {
 
 
 ?>
+=======
+        include 'pied.html';
+*/
+        ?>
+>>>>>>> Stashed changes
