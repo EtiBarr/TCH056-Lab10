@@ -102,7 +102,7 @@
                     
                     <div class="form-group">
                         <label for="message">Your Message:</label>
-                        <textarea id="blogMessage" id="test" name="message" rows="4" maxlength="250" oninput="updateCharCount(this)"required></textarea>
+                        <textarea id="contactMessage" name="message" rows="4" maxlength="250" oninput="updateCharCount(this)"required></textarea>
                         <div id="charCount">Characters remaining: 250</div>
                     </div>
                     <button type="delete" class="submit-button" id="blogSubmit">Submit</button>
@@ -115,8 +115,8 @@
 
                 <div class="contact-container">
                     <div class="form-group">
-                        <textarea class="contactMessage" name="message" rows="4" readonly></textarea>
-                        <div id="charCount">Post Written by:<p></p>Date de Publication<p></p></div>
+                        <textarea id="contactMessage" name="message" rows="4" readonly></textarea>
+                        <div id="charCount">Post Written by:<p></p></div>
                     </div>
                 </div>
                 
