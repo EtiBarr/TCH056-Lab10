@@ -66,8 +66,18 @@ function supprimerMessage(id) {
 }
 
 
-function deconnexion() {
-    // il me manque la fonction deconexion ici 
+function deconnexion() { 
+    
+    axios.post('/chemin/vers/deconnexion.php') 
+        .then(function (response) {
+            // Redirige vers la page de connexion lorsque la session détruite
+            window.location.href = '/chemin/vers/page_connexion.php'; 
+        })
+        .catch(function (error)) {
+            console.log(error);
+    
+}
+
 
 
 }
